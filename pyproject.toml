@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "omnianno"
+version = "0.1.0"
+description = "OmniAnno is a powerful tool designed for converting various annotation formats."
+authors = ["Wang Xin <xinwang614@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.scripts]
+omnianno = "omnianno.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
